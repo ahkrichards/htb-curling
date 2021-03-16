@@ -356,4 +356,4 @@ Which after a minute or so yields the contents of the `/etc/passwd` file. Now le
 floris@curling:~/admin-area$ echo 'url = "file:///root/root.txt"' > input
 ```
 
-This successfully gets us the root flag. While we did not get remote code execution or a root shell, we were successfuly in exfiltrating privileged sensitive information by abusing the input to specify a URI pointint to a local file.
+This successfully gets us the root flag. While we did not get remote code execution or a root shell, we were successful in exfiltrating privileged sensitive information by abusing the input to specify a URI pointing to a local file.
